@@ -1,0 +1,7 @@
+.unorderedMovieList {
+  margin-left: 0px;
+  padding-left: 0px;
+  display: flex;
+  width: 900px;
+  flex-wrap: wrap;
+}

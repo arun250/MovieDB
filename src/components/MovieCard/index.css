@@ -1,0 +1,35 @@
+.movieItemContainer {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 350px;
+  border: 1px solid green;
+  margin-right: 15px;
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+.viewDetailsButton {
+  background-color: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+.moviePoster {
+  width: 200px;
+  height: 220px;
+  border: 1px solid gray;
+}
+
+.movieName {
+  font-size: 16px;
+}
+
+.textContainer {
+  padding: 10px 5px 10px 5px;
+}
+
+.movieLink {
+  text-decoration: none;
+  color: black;
+}
