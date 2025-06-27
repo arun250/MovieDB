@@ -9,7 +9,7 @@ const SearchedMovies = props => {
       <li className="movieDetailContainer">
         <img src={imageUrl} alt={title} className="moviePoster" />
         <div className="textContainer">
-          <p className="movieName">{title}</p>
+          <h1 className="movieName">{title}</h1>
           <p className="movieRating">{`${voteAverage.toFixed(1)}/10`}</p>
           <div>
             <button className="viewDetailsButton">View Details</button>

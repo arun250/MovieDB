@@ -23,11 +23,10 @@ const Header = props => {
         </div>
         <div className="searchSection">
           <input
-            type="search"
+            type="text"
             id="searchBar"
             placeholder="search"
             className="userInput"
-            role="searchbox"
             value={searchName}
             onChange={onChangeSearchName}
           />
